@@ -1,4 +1,4 @@
 FROM nginx:alpine
-#copying html file from nginx
+#copying html file to nginx deafult directory
 COPY ./usr/share/nginx/html
 EXPOSE 80
